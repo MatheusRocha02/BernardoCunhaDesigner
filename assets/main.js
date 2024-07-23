@@ -33,5 +33,5 @@ closeBtns.forEach((button, index) => {
     button.addEventListener('click',()=>{
         projectContent[index].classList.remove('active');
     })
-})
+});
 
